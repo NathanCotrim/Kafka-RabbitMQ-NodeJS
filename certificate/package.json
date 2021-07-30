@@ -1,0 +1,23 @@
+{
+  "name": "certificate",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js "
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.1",
+    "amqplib": "^0.8.0",
+    "ejs": "^3.1.6",
+    "kafkajs": "^1.15.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.4",
+    "pdfkit": "^0.12.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.0"
+  }
+}

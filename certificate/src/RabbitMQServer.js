@@ -7,13 +7,11 @@ export default class RabbitMQServer {
     }
 
     async start() {
-        console.log('oi');
         this.connection = await connect(this.uri)
-        console.log('oi');
         this.channel = await this.connection.createChannel()
     }
 
     async publishInQueue(queue, message) {
         return this.channel.sendToQueue(queue, Buffer.from(message))
     }
-} 
+}

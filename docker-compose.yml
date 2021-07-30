@@ -43,7 +43,7 @@ services:
             MONGO_INITDB_ROOT_USERNAME: root
             MONGO_INITDB_ROOT_PASSWORD: certificate
         ports:
-            - "27017:27017"
+            - 27017:27017
         volumes:
             - /home/renatogroffe/Desenvolvimento/Docker/Volumes/MongoDB:/data/db
         networks:
@@ -52,10 +52,10 @@ services:
     rabbitmq:
         image: "rabbitmq:3.8-management-alpine"
         container_name: rabbitmq
-        hostname: rabbitmq
+        hostname: localhost
         ports:
-            - "15672:15672"
-            - "5672:5672"
+            - 15672:15672
+            - 5672:5672
         volumes:
             - "./.rabbitmq_data:/var/lib/rabbitmq/mnesia"
         environment:
@@ -66,4 +66,6 @@ networks:
     broker-kafka:
         driver: bridge
     mongo-compose-network:
+        driver: bridge
+    rabbitmq_go_net:
         driver: bridge

@@ -9,10 +9,10 @@ routes.post('/certificate', async (req, res) => {
         messages: [
             {
                 value: JSON.stringify({
-                    user: { id: 2, name: "nathan", email: 'nathan.cotrim@gmail.com' },
+                    user: { id: 1, name: 'Nathan', email: 'nathan.cotrim@gmail.com' },
                     course: {
                         name: 'Nodejs + Kafka + MQ',
-                        id: 5
+                        id: 2
                     }
                 }),
                 timestamp: Date.now()

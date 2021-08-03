@@ -53,5 +53,3 @@ services:
 networks:
     broker-kafka:
         driver: bridge
-    rabbitmq_go_net:
-        driver: bridge

@@ -46,10 +46,4 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 #END DOCKER-COMPOSE INSTALLATION ><><><><
 
-echo "\033[0;31m  Upping Containers... \033[0m"
-#UPPING DOCKER-COMPOSE CONTAINERS ><><><><
-sudo docker-compose up -d
-#VERIFY ThEY ARE RUNNING ><><><><
-sudo docker-compose ps -a
-
 echo "\e[1;32m Done $(date +%T) \e[0m"

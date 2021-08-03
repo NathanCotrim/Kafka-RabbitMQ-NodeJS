@@ -13,7 +13,7 @@ export default class RabbitMQServer {
 
     async consume(queue, callback) {
         return this.channel.consume(queue, (message) => {
-            callback(JSON.parse(message))
+            callback(String(message.content))
             this.channel.ack(message)
         })
     }

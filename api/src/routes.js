@@ -22,7 +22,7 @@ routes.post('/certificate', async (req, res) => {
     
     
     return res.json({
-        status: "generated successfully"
+        status: "success"
     })
 })
 

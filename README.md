@@ -118,7 +118,7 @@ http://localhost:19000/
 
 
 ### OBS: After you run, a file named nohup.out will be created at api folder, in there all api logs will appear!
-![nohup.out](/../assets/Screenshot-from-2021-08-04-08-36-08.png/?raw=true)
+<img src="https://raw.githubusercontent.com/NathanCotrim/Kafka-RabbitmQ-NodeJS/assets/Screenshot%20from%202021-08-04%2008-36-08.png" alt="Project logo"></a>
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 

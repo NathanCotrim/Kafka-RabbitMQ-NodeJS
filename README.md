@@ -118,6 +118,7 @@ http://localhost:19000/
 
 
 ### OBS: After you run, a file named nohup.out will be created at api folder, in there all api logs will appear!
+![nohup.out](/../<assets>/Screenshot.png/?raw=true)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 

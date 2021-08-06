@@ -114,11 +114,31 @@ http://localhost:19000/
 ```
 
 <br>
+<hr>
 <br>
 
 
 ### OBS: After you run, a file named nohup.out will be created at api folder, in there all api logs will appear!
 <img src="https://raw.githubusercontent.com/NathanCotrim/Kafka-RabbitmQ-NodeJS/assets/Screenshot%20from%202021-08-04%2008-36-08.png" alt="Project logo"></a>
+
+<br>
+<hr>
+<br>
+
+### If RabbitMQ queue do not auto create, you can do it at 'http://localhost:15672/':
+<img src="https://raw.githubusercontent.com/NathanCotrim/Kafka-RabbitmQ-NodeJS/assets/Screenshot.png" width="100%" alt="Project logo"></a>
+
+<hr>
+
+<img src="https://raw.githubusercontent.com/NathanCotrim/Kafka-RabbitmQ-NodeJS/assets/Screenshot%20(1).png" width="100%" alt="Project logo"></a>
+
+<hr>
+
+<img src="https://raw.githubusercontent.com/NathanCotrim/Kafka-RabbitmQ-NodeJS/assets/Screenshot%20(2).png" width="100%" alt="Project logo"></a>
+
+<br>
+<hr>
+<br>
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 

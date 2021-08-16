@@ -29,7 +29,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-* Purpose of this project was build a micro-services integration to learning use KAFKA and RabbitMQ with nodeJS, user do request to theoretically get a certificate, kafka producer sends a message to kafka consumer, it generate the certified and return it, kafka consumer also send a message to RabbitMQ queue with certified information which is consumed and a email theoretically is sended warning user his certificate is ready!
+* Purpose of this project was build a micro-services integration to learn use KAFKA and RabbitMQ with nodeJS, user do request to theoretically get a certificate, kafka producer sends a message to kafka consumer, it generate the certified and return it, kafka consumer also send a message to RabbitMQ queue with certified information which is consumed and a email theoretically is sended warning user his certificate is ready!
 <br>
 <br>
 

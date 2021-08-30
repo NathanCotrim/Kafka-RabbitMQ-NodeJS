@@ -52,7 +52,7 @@ gh repo clone NathanCotrim/Kafka-RabbitmQ-NodeJS
 <br>
 
 ## Unix OS:
-#### if you have not one of these dependencies: nodeJS, docker and docker-compose, execute install.sh shell script:
+if you have not one of these dependencies: nodeJS, docker and docker-compose, execute install.sh shell script:
 ```
 sh _install.sh 
 ``` 
@@ -63,20 +63,20 @@ sh _install.sh
 <br>
 
 ### Running
-#### with all dependencies already, execute _run.sh shell script:
+with all dependencies already, execute _run.sh shell script:
 ```
 sh _run.sh
 ```
-### All Micro-Services will execute in background, to stop they just press C^!
+All Micro-Services will execute in background, to stop they just press C^!
 
 <br>
 
-### This command up all containers, to stop they execute: 
+This command up all containers, to stop they execute: 
 ```
 sudo docker-compose down
 ```
 
-### and rebuilt with:
+and rebuilt with:
 ```
 sudo docker-compose up -d
 ```
@@ -122,14 +122,14 @@ http://localhost:19000/
 <br>
 
 
-### OBS: After you run, a file named nohup.out will be created at api folder, in there all api logs will appear!
+#### OBS: After you run, a file named nohup.out will be created at api folder, in there all api logs will appear!
 <img src="https://raw.githubusercontent.com/NathanCotrim/Kafka-RabbitmQ-NodeJS/assets/Screenshot%20from%202021-08-04%2008-36-08.png" alt="Project logo"></a>
 
 <br>
 <hr>
 <br>
 
-### If RabbitMQ queue do not auto create, you can do it at 'http://localhost:15672/':
+#### If RabbitMQ queue do not auto create, you can do it at 'http://localhost:15672/':
 <img src="https://raw.githubusercontent.com/NathanCotrim/Kafka-RabbitmQ-NodeJS/assets/Screenshot.png" width="100%" alt="Project logo"></a>
 
 <hr>

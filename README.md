@@ -1,11 +1,4 @@
-<p align="center">
-  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Apache_kafka.png/64px-Apache_kafka.png" alt="kafka">
-  
-<img src="https://www.instana.com/media/01_INSTANA_IconSet_Rabbit.svg" alt="rabbitMQ" width="26%" height="120px">
-    
-<img src="https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png" alt="Docker" width="20%" height="120px">
-</p>
+<h2 align="center"> Microservices base </h2>
 
 <h3 align="center"KAFKA & RabbitMQ Micro-Services Integration - NodeJS</h3>
 
